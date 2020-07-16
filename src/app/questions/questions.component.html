@@ -1,0 +1,10 @@
+<div style="text-align:center">
+  <h2>
+      Question list from local json file
+  </h2>
+  <ul *ngFor="let item of questions">
+     <li>
+        <h3>Question :{{item.question.title}}, User: {{item.question.user}}</h3>
+     </li>
+  </ul>
+</div>
